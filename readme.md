@@ -1,3 +1,5 @@
+ ## Installation of the Environments
+
 1. **Create an environment (requires [Conda installation](https://conda.io/projects/conda/en/latest/user-guide/install/index.html)):**
 We are currently developing our environments using a Linux system. 
 
@@ -22,7 +24,7 @@ We are currently developing our environments using a Linux system.
    pip install -e .
    ```
 ---------------
-### Run experiments
+## Run experiments
 
 To run the experiments, run test script, e.g.,
 
