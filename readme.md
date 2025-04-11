@@ -1,5 +1,5 @@
 1. **Create an environment (requires [Conda installation](https://conda.io/projects/conda/en/latest/user-guide/install/index.html)):**
-We are currently developing our environments using a Linux system. The operating system version of our server is 20.04.3 LTS.
+We are currently developing our environments using a Linux system. 
 
    Use the following command to create a new Conda environment named `cmorl` with Python 3.11:
 
@@ -29,6 +29,23 @@ To run the experiments, run test script, e.g.,
 ```bash
 `./train_mujoco`
 ```
+
+---------
+
+
+## Citation
+If you find the repository useful, please cite the study
+``` Bash
+@article{gu2025safe,
+  title={Safe and balanced: A framework for constrained multi-objective reinforcement learning},
+  author={Gu, Shangding and Sel, Bilgehan and Ding, Yuhao and Wang, Lu and Lin, Qingwei and Knoll, Alois and Jin, Ming},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2025},
+  publisher={IEEE}
+}
+```
+
+-------
 
 
 
