@@ -1,7 +1,7 @@
 1. **Create an environment (requires [Conda installation](https://conda.io/projects/conda/en/latest/user-guide/install/index.html)):**
 We are currently developing our environments using a Linux system. The operating system version of our server is 20.04.3 LTS.
 
-   Use the following command to create a new Conda environment named `robustgymnasium` with Python 3.11:
+   Use the following command to create a new Conda environment named `cmorl` with Python 3.11:
 
    ```bash
    conda create -n cmorl  python=3.9
