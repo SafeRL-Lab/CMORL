@@ -29,7 +29,7 @@ We are currently developing our environments using a Linux system.
 To run the experiments, run test script, e.g.,
 
 ```bash
-`./train_mujoco`
+./train_mujoco
 ```
 
 ---------
