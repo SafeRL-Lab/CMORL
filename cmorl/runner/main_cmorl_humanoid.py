@@ -172,7 +172,7 @@ def update_params(batch, cost_batch, i_episode):
         return (value_loss2.data.double().numpy(), get_flat_grad_from(value_net2).data.double().numpy())
 
     if cost_batch >= -1.5 or i_episode <= 5:
-        print("work!")
+        print("\033[92m work! \033[0m")
         flat_params, _, opt_info = scipy.optimize.fmin_l_bfgs_b(get_value_loss, get_flat_params_from(value_net).double().numpy(), maxiter=25)
         set_flat_params_to(value_net, torch.Tensor(flat_params))
 
